@@ -117,3 +117,27 @@ body {
     font-size: 1rem;
     cursor: pointer;
 }
+#quoteTitle{
+    margin: 1rem;
+}
+#quoteBox{
+    margin: 2rem;
+}
+#quoteText{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+#loadNewQuote{
+    background-color: transparent;
+    border: none;
+    color: #376d99;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+#loadNewQuote:hover{
+    color: #1a4c6e;
+    transform: scale(1.2);
+}
