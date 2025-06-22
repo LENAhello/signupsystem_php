@@ -65,14 +65,20 @@ if (isset($_POST['signup'])) {
         <h2>Sign Up</h2>
         <form method="POST">
             <input type="text" name="username" placeholder="User Name">
-            <input type="password" name="userpassword" placeholder="Password">
+            <input type="password" name="userpassword" placeholder="Password" id="password">
             <input type="email" name="email" placeholder="Email">
+            <div>
+                <input type="checkbox" id="togglePassword">
+                <p>Show Password</p>
+            </div>
             <button type="submit" name="signup">Sign Up</button>
         </form>
         <p>Already have an account ? <a href="login.php">Log In</a></p>
 
     </div>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>

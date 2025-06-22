@@ -59,13 +59,19 @@ if (isset($_POST["login"])) {
         <h2>Log In</h2>
         <form action="" method="POST">
             <input type="text" name="username" placeholder="User Name">
-            <input type="password" name="userpassword" placeholder="Password">
+            <input type="password" name="userpassword" placeholder="Password" id="password">
+            <div>
+                <input type="checkbox" id="togglePassword">
+                <p>Show Password</p>
+            </div>
             <button type="submit" name="login">Log In</button>
         </form>
         <p>Don't have an account yet ? <a href="signup.php">Sign Up</a></p>
 
     </div>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>

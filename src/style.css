@@ -22,7 +22,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 25rem;
-    height: 60vh;
+    height: 65vh;
     background-color: whitesmoke;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -80,7 +80,30 @@ body {
 .formContainer a:hover{
     text-decoration: underline;
 }
-
+/* CHECKBOX SHOW PASSWORD*/
+.formContainer div{
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+}
+.formContainer div p{
+    position: relative;
+    text-align: start;
+    font-size: 0.9rem;
+    color: #376d99 ;
+}
+#togglePassword{
+    width: 0.6rem;
+    height: 0.6rem;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
 /* LOG OUT BUTTON*/
 .logoutBtn {
     border: solid 2px whitesmoke;
